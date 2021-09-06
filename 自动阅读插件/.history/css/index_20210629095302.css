@@ -1,0 +1,11 @@
+/* 外盒子height44px */
+/* background-color为什么写在color上面 */
+/* 内联元素最好不要嵌套块级元素 */
+/* 公共样式写img height100% -> 给img的父盒子设置宽度就可以适应高度了 */
+/* 两栏32' */
+/* 38' common样式表 */
+/* 标准黑： #424242 */
+/* 文字省略3大件
+overflow: hidden
+text-overflow: ellipsis
+wihite-space: nowrap */

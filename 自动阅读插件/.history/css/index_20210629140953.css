@@ -1,0 +1,67 @@
+/* 外盒子height44px */
+/* background-color为什么写在color上面 */
+/* 内联元素最好不要嵌套块级元素 */
+/* 公共样式写img height100% -> 给img的父盒子设置宽度就可以适应高度了 */
+/* 两栏32' */
+/* 38' common样式表 */
+/* 标准黑： #424242 */
+/* 文字省略3大件
+overflow: hidden
+text-overflow: ellipsis
+white-space: nowrap */
+.list-hd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: hotpink;
+  color: #fff;
+  z-index: 1;
+}
+.container {
+  margin-top: 44px;
+}
+.container .list-item {
+  height: 150px;
+  border-bottom: 1px solid #000;
+}
+.container .list-item .item-lk {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.container .list-item .bk-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  height: 100%;
+}
+.container .list-item .bk-info {
+  margin-left: 118px;
+  height: 100%;
+  color: #424242;
+}
+.container .list-item .bk-info .intro {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999;
+}
+.container .list-item .bk-info p {
+  margin-top: 15px;
+}
+.s-top-btn {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  background-image: url(../img/rocket.jpg) no-repeat 0 0;
+  background-size: 100% 100%;
+}

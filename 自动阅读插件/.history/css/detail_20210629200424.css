@@ -1,0 +1,25 @@
+.btn-top {
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  background: url(../img/rocket.jpg) no-repeat 0 0/100% 100%;
+  opacity: .8;
+}
+.btn-play {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  background: url(../img/playing.png) no-repeat 0 0/100% 100%;
+  opacity: .8;
+}
+.btn-top:hover,.btn-play:hover{
+  opacity: 1;
+}
