@@ -1,0 +1,119 @@
+/*
+ * @class {wrap}
+ * width: 1200px;
+ * height: 200px;
+ *
+ * @class {list}
+ * height:  100%;
+ *
+ * @class {list-item}
+ * width: 210px;
+ * height: 100%;
+ * padding: 10px;
+ *
+ * @class {active}
+ * width: 370px;
+ *
+ * @class {card}
+ * height: 100%;
+ * padding: 10px;
+ * border-bottom: 1px solid #ccc;
+ *
+ * @class {title}
+ * width: 170px;
+ * height: 80px;
+ *
+ * @class {price}
+ * width: 170px;
+ * height: 50%;
+ * line-height: 90px; 
+ *
+ * @class {img}
+ * position: absolute;
+ * bottom: 20px;
+ * right: 15px;
+ * width: 70px;
+ * height: 70px;
+ *
+ */
+ body {
+    margin: 0;
+ }
+
+ div,
+ li {
+    box-sizing: border-box;
+ }
+
+ ul {
+    padding: 0;
+    list-style: none;
+ }
+
+ a {
+    text-decoration: none;
+ }
+ .wrap {
+    width: 1200px;
+    height: 200px;
+    margin: 200px auto;
+ }
+
+ .wrap .list {
+    height: 100%;
+ }
+
+ .wrap .list-item {
+    float: left;
+    width: 210px;
+    height: 100%;
+    padding: 10px;
+ }
+
+.wrap .list-item:hover {
+    box-shadow: 0 0 10px #ccc;
+ }
+
+.wrap .list-item.active {
+    width: 360px;
+}
+.wrap .list-item .card {
+    position: relative;
+    height: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.wrap .list-item .card .title {
+    width: 170px;
+    height: 80px;
+}
+
+.wrap .list-item .card .title a {
+    font-size: 14px;
+    color: #424242;
+}
+
+.wrap .list-item .card .title a:hover {
+    color: #ff0000;
+}
+
+.wrap .list-item .card .price {
+    line-height: 80px;
+    color: #f40;
+}
+
+.wrap .list-item .card .img {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    width: 70px;
+    height: 70px;
+}
+.wrap .list-item.active .card .img {
+    width: 150px;
+    height: 150px;
+}
+.wrap .list-item .card .img img {
+    height: 100%;
+}
