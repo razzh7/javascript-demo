@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.slider-wrap {
+  width: 996px;
+  height: 480px;
+  margin: 50px auto;
+  border: 1px solid #000;
+}
+.slider {
+  float: left;
+  width: 853px;
+  height: 480px;
+}
+.slider-item {
+  display: none;
+  height: 480px;
+}
+.current {
+  display: block;
+}
+.thumbs {
+  float: right;
+  width: 142px;
+  height: 480px;
+}
+.thumbs-item {
+  height: 80px;
+  opacity: .5;
+}
+.active {
+  opacity: 1;
+}
+
