@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>filter的应用</title>
+</head>
+<body>
+	<h2 id="J_nav">
+		<a href="javascript:;" data-filed="all">全部电视剧</a>
+		<a href="javascript:;" data-filed="free">免费电视剧</a>
+		<a href="javascript:;" data-filed="vip">收费电视剧</a>
+	</h2>
+	
+	<ul class="list">
+		
+	</ul>
+
+	<div style="display: none;" id="J_data">
+		[{"id": "1","course":"我的女友是九尾狐"},
+		{"id": "2","course":"灿烂的遗产","is_free":"0"},
+		{"id": "3","course":"从你的全世界路过","is_free":"1"},
+		{"id": "4","course":"萌宠大乱斗","is_free":"1"},
+		{"id": "5","course":"逃避可耻但有用","is_free":"0"},
+		{"id": "6","course":"失控玩家","is_free":"0"},
+		{"id": "7","course":"今日子","is_free":"0"}]
+	</div>	
+	<script type="text/tpl" id="J_tpl">
+		<li>{{course}}</li>
+	</script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
