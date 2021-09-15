@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+.mag-wrap {
+	position: relative;
+	width: 418px;
+	height: 418px;
+	margin: 200px auto;
+	border: 1px solid #ccc;
+}
+
+.mag-wrap .imgzoom-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 218px;
+	height: 218px;
+	box-shadow: 0 0 5px #ccc;
+	overflow: hidden;
+}
+
+.mag-wrap .imgzoom-wrap .zoom-plus {
+	position: absolute;
+	width: 416px;
+	height: 416px;
+}
+
+.mag-wrap .imgzoom-wrap.show {
+	display: block;
+	transform: scale(1.4);
+}
+/*.mag-wrap .imgzoom-wrap.show .zoom-plus {
+	transform: scale(1.5);
+}*/
+
+.mag-wrap .static-wrap {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.mag-wrap .static-img {
+	height: 100%;
+}
