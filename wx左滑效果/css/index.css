@@ -1,0 +1,42 @@
+html,body,ul {
+  margin: 0;
+  padding: 0;
+}
+html,body {
+  height: 100%;
+}
+.wrap {
+  height: 100%;
+  background-color: #292929;
+}
+.wrap .list .cheat {
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+.wrap .list .cheat .list-item {
+  position: relative;
+  z-index: 2;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 0 0 10px;
+  list-style: none;
+  background-color: #292929;
+  color: #fff;
+}
+.wrap .list .cheat .del {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 50px;
+  height: 60px;
+  line-height: 60px;
+  transform: translateX(0);
+  text-align: center;
+  background-color: #E66671;
+}
+.wrap .list .list-item .del.active {
+  transform: translateX(50px);
+  transition: transform .3s;
+}
